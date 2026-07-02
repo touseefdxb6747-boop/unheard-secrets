@@ -1,140 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Unheard Secrets | Anonymous Confessions & Daily News</title>
+  <meta name="description" content="Unheard Secrets is a safe place to read anonymous confessions, share secrets, and stay updated with daily news." />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
 <header class="header">
   <div class="container nav">
-
     <div class="logo">
       <div class="logo-icon">
         <i class="fa-solid fa-mask"></i>
       </div>
 
       <div class="logo-text">
-        <span>UnHeard</span>
+        <span>Unheard</span>
         <small>SECRETS</small>
       </div>
     </div>
 
     <nav>
-      <a href="#">Home</a>
-      <a href="#">News</a>
-      <a href="#">Confessions</a>
-      <a href="#">Categories</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="#confessions">Secrets</a>
+      <a href="#categories">Categories</a>
+      <a href="#newsletter">Newsletter</a>
+      <a href="contact.html">Contact</a>
     </nav>
 
     <div class="nav-right">
       <i class="fas fa-search"></i>
-      <button class="login-btn">Login</button>
-      <button class="submit-btn">Submit</button>
+      <a href="login.html" class="login-btn">Login</a>
+      <a href="submit.html" class="submit-btn">Submit</a>
     </div>
 
     <div class="mobile-toggle">
       <i class="fa-solid fa-bars"></i>
     </div>
-
   </div>
 </header>
 
+<section class="ticker">
+  <div class="container">
+    <div class="breaking">🔥 BREAKING</div>
+    <div class="marquee">
+      <span>UAE announces new education initiatives • AI continues transforming industries • Global markets rally as inflation eases • New anonymous stories published daily</span>
+    </div>
+  </div>
+</section>
+
 <section class="hero">
-
   <div class="container hero-grid">
-
     <div class="hero-left">
+      <span class="tag">Anonymous & Trusted</span>
 
-      <span class="tag">
-        Anonymous & Trusted
-      </span>
+      <h1>Your Confessions.<br>Our Safe Space.</h1>
 
-      <h1>
-        Your Confessions.<br>
-        Our Safe Space.
-      </h1>
-
-      <p>
-        Share your stories anonymously, discover the latest news,
-        and join a supportive community.
-      </p>
+      <p>Share your stories anonymously, discover the latest news, and join a supportive community.</p>
 
       <div class="buttons">
-        <button class="gold-btn">
-          Share Confession
-        </button>
-
-        <button class="outline-btn">
-          Read News
-        </button>
+        <a href="submit.html" class="gold-btn">Share Secret</a>
+        <a href="#confessions" class="outline-btn">Read Secrets</a>
       </div>
 
       <div class="stats">
-
-        <div>
-          <strong>12K+</strong>
-          <span>Confessions</span>
-        </div>
-
-        <div>
-          <strong>250+</strong>
-          <span>Daily News</span>
-        </div>
-
-        <div>
-          <strong>95K+</strong>
-          <span>Readers</span>
-        </div>
-
+        <div><strong>12K+</strong><span>Confessions</span></div>
+        <div><strong>250+</strong><span>Daily News</span></div>
+        <div><strong>95K+</strong><span>Readers</span></div>
       </div>
-
     </div>
 
     <div class="hero-right">
-
       <div class="featured-card">
-
-        <img src="https://images.unsplash.com/photo-1495020689067-958852a7765?auto=format&fit=crop&w=900&q=80">
-
+        <img src="https://images.unsplash.com/photo-1495020689067-958852a7765?auto=format&fit=crop&w=900&q=80" alt="Featured news">
         <div class="overlay">
-
-          <span class="badge">
-            TOP STORY
-          </span>
-
-          <h2>
-            Global markets rally as inflation continues to ease.
-          </h2>
-
-          <a href="#">
-            Read Story →
-          </a>
-
+          <span class="badge">TOP STORY</span>
+          <h2>Global markets rally as inflation continues to ease.</h2>
+          <a href="news.html">Read Story →</a>
         </div>
-
       </div>
-
     </div>
-
   </div>
-
 </section>
-<section class="ticker">
 
-<div class="container">
-
-<div class="breaking">
-
-🔥 BREAKING
-
-</div>
-
-<div class="marquee">
-
-<span>
-UAE announces new education initiatives • AI continues transforming industries • Global markets rally as inflation eases • Technology companies report record earnings
-</span>
-
-</div>
-
-</div>
-
-</section><section class="trending">
+<section class="trending">
   <div class="container">
     <div class="section-title">
       <span>Hot Updates</span>
@@ -143,7 +104,7 @@ UAE announces new education initiatives • AI continues transforming industries
 
     <div class="trend-grid">
       <article class="trend-card">
-        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Technology news">
         <div class="trend-content">
           <span class="category">Technology</span>
           <h3>AI tools are changing how people read daily news.</h3>
@@ -152,7 +113,7 @@ UAE announces new education initiatives • AI continues transforming industries
       </article>
 
       <article class="trend-card">
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="World news">
         <div class="trend-content">
           <span class="category">World</span>
           <h3>Global communities react to new social media trends.</h3>
@@ -161,7 +122,7 @@ UAE announces new education initiatives • AI continues transforming industries
       </article>
 
       <article class="trend-card">
-        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80">
+        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Lifestyle news">
         <div class="trend-content">
           <span class="category">Lifestyle</span>
           <h3>Why anonymous stories are becoming more popular online.</h3>
@@ -172,7 +133,45 @@ UAE announces new education initiatives • AI continues transforming industries
   </div>
 </section>
 
-<section class="confessions">
+<section class="latest-news">
+  <div class="container">
+    <div class="section-title">
+      <span>Fresh Updates</span>
+      <h2>Latest News</h2>
+    </div>
+
+    <div class="latest-news-grid">
+      <article class="big-news">
+        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1000&q=80" alt="Latest news">
+        <div class="big-news-content">
+          <span class="category">World News</span>
+          <h3>Anonymous platforms are changing how people share real-life stories.</h3>
+          <p>Readers are increasingly looking for trusted spaces where news, opinions, and personal stories come together.</p>
+          <a href="news.html">Read Full Story →</a>
+        </div>
+      </article>
+
+      <div class="side-news">
+        <article>
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400&q=80" alt="AI news">
+          <div><span>Technology</span><h4>AI is reshaping digital publishing.</h4></div>
+        </article>
+
+        <article>
+          <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=400&q=80" alt="Business news">
+          <div><span>Business</span><h4>New media startups are growing fast.</h4></div>
+        </article>
+
+        <article>
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80" alt="Community news">
+          <div><span>Community</span><h4>Online communities are becoming safer spaces.</h4></div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="confessions" id="confessions">
   <div class="container">
     <div class="section-title">
       <span>Anonymous Voices</span>
@@ -184,78 +183,27 @@ UAE announces new education initiatives • AI continues transforming industries
         <i class="fa-solid fa-quote-left"></i>
         <h3>I pretend to be happy, but I feel lost.</h3>
         <p>Sometimes I smile just so nobody asks what is wrong.</p>
-        <div class="secret-meta">
-          <span>Anonymous</span>
-          <span>❤️ 248</span>
-        </div>
+        <div class="secret-meta"><span>Anonymous</span><span>❤️ 248</span></div>
       </div>
 
       <div class="secret-card">
         <i class="fa-solid fa-quote-left"></i>
         <h3>I still think about someone I never confessed to.</h3>
         <p>Years passed, but the feeling never completely disappeared.</p>
-        <div class="secret-meta">
-          <span>Anonymous</span>
-          <span>❤️ 391</span>
-        </div>
+        <div class="secret-meta"><span>Anonymous</span><span>❤️ 391</span></div>
       </div>
 
       <div class="secret-card">
         <i class="fa-solid fa-quote-left"></i>
         <h3>I want to restart my life quietly.</h3>
         <p>No drama, no explanation, just a fresh beginning.</p>
-        <div class="secret-meta">
-          <span>Anonymous</span>
-          <span>❤️ 512</span>
-        </div>
+        <div class="secret-meta"><span>Anonymous</span><span>❤️ 512</span></div>
       </div>
     </div>
   </div>
 </section>
-<section class="categories">
 
-    <div class="container">
-
-        <div class="section-title">
-            <span>Explore</span>
-            <h2>Popular Categories</h2>
-        </div>
-
-        <div class="category-grid">
-
-            <div class="category-card" style="background-image:url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80')">
-                <div class="overlay">
-                    <h3>Technology</h3>
-                    <p>128 Articles</p>
-                </div>
-            </div>
-
-            <div class="category-card" style="background-image:url('https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=900&q=80')">
-                <div class="overlay">
-                    <h3>Relationships</h3>
-                    <p>324 Confessions</p>
-                </div>
-            </div>
-
-            <div class="category-card" style="background-image:url('https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=900&q=80')">
-                <div class="overlay">
-                    <h3>Education</h3>
-                    <p>95 Articles</p>
-                </div>
-            </div>
-
-            <div class="category-card" style="background-image:url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=900&q=80')">
-                <div class="overlay">
-                    <h3>Lifestyle</h3>
-                    <p>210 Stories</p>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section><section class="editors-choice">
+<section class="editors-choice">
   <div class="container">
     <div class="section-title">
       <span>Selected For You</span>
@@ -264,43 +212,122 @@ UAE announces new education initiatives • AI continues transforming industries
 
     <div class="editor-grid">
       <article class="editor-main">
-        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1000&q=80">
+        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1000&q=80" alt="Editor's choice">
         <div class="editor-main-content">
           <span class="category gold-category">Featured</span>
           <h3>Inside the rise of anonymous storytelling platforms.</h3>
           <p>People are turning to safe digital spaces to share what they cannot say publicly.</p>
-          <a href="#">Read More →</a>
+          <a href="news.html">Read More →</a>
         </div>
       </article>
 
       <div class="editor-side">
         <article class="mini-news">
-          <img src="https://images.unsplash.com/photo-1495020689067-958852a7765?auto=format&fit=crop&w=500&q=80">
-          <div>
-            <span>News</span>
-            <h4>Daily news habits are changing across younger audiences.</h4>
-          </div>
+          <img src="https://images.unsplash.com/photo-1495020689067-958852a7765?auto=format&fit=crop&w=500&q=80" alt="News">
+          <div><span>News</span><h4>Daily news habits are changing across younger audiences.</h4></div>
         </article>
 
         <article class="mini-news">
-          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=500&q=80">
-          <div>
-            <span>Technology</span>
-            <h4>New tools help creators publish faster and smarter.</h4>
-          </div>
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=500&q=80" alt="Technology">
+          <div><span>Technology</span><h4>New tools help creators publish faster and smarter.</h4></div>
         </article>
 
         <article class="mini-news">
-          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=500&q=80">
-          <div>
-            <span>Community</span>
-            <h4>Why online communities are becoming modern support groups.</h4>
-          </div>
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=500&q=80" alt="Community">
+          <div><span>Community</span><h4>Why online communities are becoming modern support groups.</h4></div>
         </article>
       </div>
     </div>
   </div>
-</section><section class="newsletter">
+</section>
+
+<section class="categories" id="categories">
+  <div class="container">
+    <div class="section-title">
+      <span>Explore</span>
+      <h2>Popular Categories</h2>
+    </div>
+
+    <div class="category-grid">
+      <div class="category-card" style="background-image:url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80')">
+        <div class="overlay"><h3>Technology</h3><p>128 Articles</p></div>
+      </div>
+
+      <div class="category-card" style="background-image:url('https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=900&q=80')">
+        <div class="overlay"><h3>Relationships</h3><p>324 Confessions</p></div>
+      </div>
+
+      <div class="category-card" style="background-image:url('https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=900&q=80')">
+        <div class="overlay"><h3>Education</h3><p>95 Articles</p></div>
+      </div>
+
+      <div class="category-card" style="background-image:url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=900&q=80')">
+        <div class="overlay"><h3>Lifestyle</h3><p>210 Stories</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tags-cta">
+  <div class="container tags-cta-grid">
+    <div class="trending-tags">
+      <span>Trending Topics</span>
+      <h2>What People Are Reading</h2>
+
+      <div class="tags">
+        <a href="#">#Relationships</a>
+        <a href="#">#School</a>
+        <a href="#">#Career</a>
+        <a href="#">#Family</a>
+        <a href="#">#AI</a>
+        <a href="#">#Secrets</a>
+      </div>
+    </div>
+
+    <div class="submit-secret-box">
+      <h2>Have something to say?</h2>
+      <p>Share your secret anonymously and safely with the community.</p>
+      <a href="submit.html">Submit Your Secret</a>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="container">
+    <div class="section-title">
+      <span>Why Us</span>
+      <h2>Why Choose Unheard Secrets?</h2>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature-box">
+        <i class="fa-solid fa-user-secret"></i>
+        <h3>100% Anonymous</h3>
+        <p>Share your thoughts without revealing your identity.</p>
+      </div>
+
+      <div class="feature-box">
+        <i class="fa-solid fa-shield-halved"></i>
+        <h3>Safe & Secure</h3>
+        <p>Your privacy is our highest priority.</p>
+      </div>
+
+      <div class="feature-box">
+        <i class="fa-solid fa-newspaper"></i>
+        <h3>Daily News</h3>
+        <p>Stay informed with trending local and global news.</p>
+      </div>
+
+      <div class="feature-box">
+        <i class="fa-solid fa-heart"></i>
+        <h3>Community Support</h3>
+        <p>Read real stories from thousands of people.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter" id="newsletter">
   <div class="container newsletter-box">
     <h2>Stay Updated With Unheard Secrets</h2>
     <p>Get daily news, trending secrets, and community stories directly in your inbox.</p>
@@ -321,18 +348,18 @@ UAE announces new education initiatives • AI continues transforming industries
 
     <div>
       <h4>Quick Links</h4>
-      <a href="#">Home</a>
-      <a href="#">News</a>
-      <a href="#">Confessions</a>
-      <a href="#">Submit Secret</a>
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="#confessions">Secrets</a>
+      <a href="submit.html">Submit Secret</a>
     </div>
 
     <div>
       <h4>Categories</h4>
-      <a href="#">Technology</a>
-      <a href="#">Relationships</a>
-      <a href="#">Lifestyle</a>
-      <a href="#">Education</a>
+      <a href="#categories">Technology</a>
+      <a href="#categories">Relationships</a>
+      <a href="#categories">Lifestyle</a>
+      <a href="#categories">Education</a>
     </div>
 
     <div>
@@ -349,145 +376,19 @@ UAE announces new education initiatives • AI continues transforming industries
     © 2026 Unheard Secrets. All rights reserved.
   </div>
 </footer>
+
 <div class="search-popup">
   <div class="search-box">
     <i class="fa-solid fa-xmark close-search"></i>
     <h2>Search Unheard Secrets</h2>
     <input type="text" placeholder="Search news, secrets, categories...">
   </div>
-</div><section class="latest-news">
-  <div class="container">
-    <div class="section-title">
-      <span>Fresh Updates</span>
-      <h2>Latest News</h2>
-    </div>
-
-    <div class="latest-news-grid">
-      <article class="big-news">
-        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1000&q=80">
-        <div class="big-news-content">
-          <span class="category">World News</span>
-          <h3>Anonymous platforms are changing how people share real-life stories.</h3>
-          <p>Readers are increasingly looking for trusted spaces where news, opinions, and personal stories come together.</p>
-          <a href="#">Read Full Story →</a>
-        </div>
-      </article>
-
-      <div class="side-news">
-        <article>
-          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400&q=80">
-          <div>
-            <span>Technology</span>
-            <h4>AI is reshaping digital publishing.</h4>
-          </div>
-        </article>
-
-        <article>
-          <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=400&q=80">
-          <div>
-            <span>Business</span>
-            <h4>New media startups are growing fast.</h4>
-          </div>
-        </article>
-
-        <article>
-          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80">
-          <div>
-            <span>Community</span>
-            <h4>Online communities are becoming safer spaces.</h4>
-          </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</section><section class="tags-cta">
-  <div class="container tags-cta-grid">
-
-    <div class="trending-tags">
-      <span>Trending Topics</span>
-      <h2>What People Are Reading</h2>
-
-      <div class="tags">
-        <a href="#">#Relationships</a>
-        <a href="#">#School</a>
-        <a href="#">#Career</a>
-        <a href="#">#Family</a>
-        <a href="#">#AI</a>
-        <a href="#">#Secrets</a>
-      </div>
-    </div>
-
-    <div class="submit-secret-box">
-      <h2>Have something to say?</h2>
-      <p>Share your secret anonymously and safely with the community.</p>
-      <button>Submit Your Secret</button>
-    </div>
-
-  </div>
-</section><section class="features">
-
-<div class="container">
-
-<div class="section-title">
-<span>Why Us</span>
-<h2>Why Choose Unheard Secrets?</h2>
 </div>
 
-<div class="feature-grid">
-
-<div class="feature-box">
-
-<i class="fa-solid fa-user-secret"></i>
-
-<h3>100% Anonymous</h3>
-
-<p>
-Share your thoughts without revealing your identity.
-</p>
-
-</div>
-
-<div class="feature-box">
-
-<i class="fa-solid fa-shield-halved"></i>
-
-<h3>Safe & Secure</h3>
-
-<p>
-Your privacy is our highest priority.
-</p>
-
-</div>
-
-<div class="feature-box">
-
-<i class="fa-solid fa-newspaper"></i>
-
-<h3>Daily News</h3>
-
-<p>
-Stay informed with trending local and global news.
-</p>
-
-</div>
-
-<div class="feature-box">
-
-<i class="fa-solid fa-heart"></i>
-
-<h3>Community Support</h3>
-
-<p>
-Read real stories from thousands of people.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section><button class="back-to-top">
+<button class="back-to-top">
   <i class="fa-solid fa-arrow-up"></i>
 </button>
 
+<script src="js/app.js"></script>
+</body>
+</html>
